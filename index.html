@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container">
+  <h2 class="text-center pb-3">JSON to Java TestCase Object Creating Stub</h2>
+  <label for="objectName" class="form-label">Enter the JSON Object Name</label>
+  <input type="text" class="form-control" placeholder="Please Enter the main object Name" id="objectName"> <br>
+  
+  <div class="d-flex align-items-center justify-content-center" style="gap: 10px">
+    <div class="col-6">
+      <label for="json" class="form-label">Enter the JSON Object</label>
+      <textarea id="json" class="form-control" name="json" rows="10" placeholder="please paste the JSON response"></textarea>
+    </div>
+    
+    <div class="col-6">
+      <label for="code" class="form-label">Generated Code</label>
+      <textarea id="code" name="code" class="form-control" rows="10" placeholder="Code Goes here"></textarea>
+    </div>
+  </div>
+  
+  
+  <br>
+  <div class="d-grid gap-2 pb-4">
+  <button id="btn" class="btn btn-primary">Generate</button>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
